@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "type_traits": "c",
+        "in.h": "c",
+        "types.h": "c",
+        "inet.h": "c",
+        "socket.h": "c",
+        "stat.h": "c"
+    },
+    "cmake.configureOnOpen": false
+}
