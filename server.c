@@ -58,6 +58,7 @@ printf("fail in listening");
 }else{
  printf("success in listening ");
 }
+//accept
 int lenth=sizeof(cli);
 confd=accept(sockfd,(SA*)&cli,&lenth);
 if(confd<0){

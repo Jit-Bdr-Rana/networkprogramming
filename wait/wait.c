@@ -17,7 +17,8 @@ void main(){
    pid_t cpid=waitpid(pid[j],&stat,0) ;
    if(WIFEXITED(stat)){
        printf("child %d terminate with status code %d \n",cpid,WEXITSTATUS(stat));
-   }    
+   }  
+     
  }
 
 

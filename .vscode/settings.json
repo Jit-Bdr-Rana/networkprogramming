@@ -5,7 +5,9 @@
         "types.h": "c",
         "inet.h": "c",
         "socket.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "*.tcc": "c",
+        "fstream": "c"
     },
     "cmake.configureOnOpen": false
 }
